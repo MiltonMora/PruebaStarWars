@@ -65,7 +65,7 @@ class GetStarWarsInfCommand extends Command
             $character->setGender($person['gender']);
             $this->charactersRepository->store($character);
         }
-        
+
 
         $io->success('Final.');
 
